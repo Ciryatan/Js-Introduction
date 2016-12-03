@@ -7,10 +7,12 @@ var wart1 = 5;
 function sum () {
 	
 	var wart2 = 8;
-	return wart1 + wart2;
+	var sum = wart1 + wart2;
+	
+	console.log (sum);
 	
 }
 
-var suma = sum (5,8);
+sum (5,8);
 
-console.log (suma);
+console.log (wart1+wart2);
